@@ -1,0 +1,18 @@
+name: at_rsa_parameters
+description: A simple tool to obtain [n, e, d, p, q] parameters from a RSA Private Key
+version: 1.0.0
+# homepage: https://www.example.com
+
+environment:
+  sdk: '>=2.16.2 <3.0.0'
+
+
+dependencies:
+#   path: ^1.8.0
+  crypton: ^2.0.5
+  encrypt: ^5.0.1
+  archive: ^3.3.1
+  rsa_pkcs: ^2.0.1
+
+dev_dependencies:
+  lints: ^1.0.0
